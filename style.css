@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.menu li {
+    margin: 10px 5px;
+    padding: 15px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+
+.iconos span {
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+
+@media (max-width: 480px) {
+    .menu {
+        background-color: olive;
+    }
+}
+
+
